@@ -1,0 +1,30 @@
+#ifndef ACCOUNT_H
+#define ACCOUNT_H
+
+#include <string>
+#include <vector>
+
+class Account {
+private:
+    std::string name;
+    std::string accountNumber;
+    double balance;
+    std::string password;
+    std::vector<std::string> transactionHistory;
+
+public:
+    Account(std::string n, std::string accNum, std::string pwd, double bal = 0.0);
+    
+    // Getter methods
+    std::string getName() const;
+    std::string getAccountNumber() const;
+    double getBalance() const;
+    bool checkPassword(std::string pwd) const;
+
+    // Account operations
+    void deposit(double amount);
+    void withdraw(double amount);
+    void transfer(Account &recipient, double amount);
+    void displayTransactionHistory() const;
+};
+
