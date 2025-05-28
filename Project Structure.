@@ -1,0 +1,9 @@
+OnlineBankingSystem/
+├── src/
+│   ├── main.cpp          (your existing code)
+│   ├── Account.h         (Account class header)
+│   ├── Account.cpp       (Account class implementation)
+│   ├── BankingSystem.h  (BankingSystem class header)
+│   └── BankingSystem.cpp (BankingSystem class implementation)
+├── README.md            (project documentation)
+└── .gitignore           (files to ignore)
