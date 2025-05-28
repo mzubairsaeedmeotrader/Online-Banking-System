@@ -1,0 +1,18 @@
+#ifndef BANKINGSYSTEM_H
+#define BANKINGSYSTEM_H
+
+#include "Account.h"
+#include <vector>
+
+class BankingSystem {
+private:
+    std::vector<Account> accounts;
+
+public:
+    void createAccount();
+    Account* login();
+    void run();
+    void accountMenu(Account* account);
+};
+
+#endif
