@@ -2,7 +2,7 @@
 <br>
 Create an online banking system for users to  manage their accounts, perform  transactions, and view transaction history.
 <br>
-Bs It Second Semester project Session 2024-2028 MNS University of Agriculture Multan.
+Bs IT 2nd Semester project Session 2024-2028 MNS University of Agriculture Multan.
 <br>
 Group Members Are:
 <br>
